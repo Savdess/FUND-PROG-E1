@@ -4,9 +4,9 @@
         <attribute name="name" value="EVA1_6_VEHICULOFW"/>
         <attribute name="authors" value="bisonte"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-09-11 06:35:53 SEXO"/>
+        <attribute name="saved" value="2026-09-11 06:42:43 SEXO"/>
         <attribute name="created" value="Ymlzb250ZTtERVNLVE9QLTRVUUFNMTA7MjAyNi0wOS0xMTswNjoxNjoyMyBTRVhPOzMyNDE="/>
-        <attribute name="edited" value="Ymlzb250ZTtERVNLVE9QLTRVUUFNMTA7MjAyNi0wOS0xMTswNjozNTo1MyBTRVhPOzE7MzM1Mw=="/>
+        <attribute name="edited" value="Ymlzb250ZTtERVNLVE9QLTRVUUFNMTA7MjAyNi0wOS0xMTswNjo0Mjo0MyBTRVhPOzI7MzM1MQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -15,7 +15,7 @@
             <declare name="MODELO" type="String" array="False" size=""/>
             <declare name="A&#209;O" type="Integer" array="False" size=""/>
             <declare name="COLOR" type="String" array="False" size=""/>
-            <declare name="KILOMETRAJE" type="Real" array="False" size=""/>
+            <declare name="KILOMETRAJE" type="Integer" array="False" size=""/>
             <declare name="PRECIO" type="Real" array="False" size=""/>
             <output expression="&quot;Que marca es tu auto?&quot;" newline="True"/>
             <input variable="MARCA"/>
