@@ -18,37 +18,38 @@ public class EVA1_6_VEHICULO {
      
        
 // TODO code application logic here
-        String mARCA;
-        String mODELO;
-        int aÑO;
-        String cOLOR;
+        String MARCA;
+        String MODELO;
+        int YEAR;
+        String COLOR;
         int kILOMETRAJE;
-        double pRECIO;
+        double PRECIO;
      Scanner AUTO_D = new Scanner(System.in);
         System.out.println("Que marca es tu auto?");
-        mARCA = AUTO_D.nextLine();
+        MARCA = AUTO_D.nextLine();
         System.out.println("Que modelo es tu auto?");
-        mODELO = AUTO_D.nextLine();
-        System.out.println("De que año es tu carro?");
-        aÑO = AUTO_D.nextInt();
+        MODELO = AUTO_D.nextLine();
+        System.out.println("De que year es tu carro?");
+        YEAR = AUTO_D.nextInt();
+        AUTO_D.nextLine();
         System.out.println("De que color es tu auto?");
-        cOLOR = AUTO_D.nextLine();
+       COLOR= AUTO_D.nextLine();
         System.out.println("Cuanto kilometraje tiene hasta el momento?");
         kILOMETRAJE = AUTO_D.nextInt();
         System.out.println("Cuanto cuesta tu auto?");
-        pRECIO = AUTO_D.nextDouble();
+        PRECIO = AUTO_D.nextDouble();
         System.out.println("PERFECTO!! TU AUTO TIENE:");
         System.out.print("La marca es:");
-        System.out.println(mARCA);
+        System.out.println(MARCA);
         System.out.print("El modelo es:");
-        System.out.println(mODELO);
-        System.out.print("El año es: ");
-        System.out.println(aÑO);
+        System.out.println(MODELO);
+        System.out.print("El year es: ");
+        System.out.println(YEAR);
         System.out.print("El color del auto es: ");
-        System.out.println(cOLOR);
+        System.out.println(COLOR);
         System.out.print("El kilometraje actual del auto es: ");
         System.out.println(kILOMETRAJE);
         System.out.print("El precio es: $");
-        System.out.println(pRECIO);
+        System.out.println(PRECIO);
     }
 }
